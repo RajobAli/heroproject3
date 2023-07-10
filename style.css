@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    
+ 
+
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+}
+
+.image1{
+    height: 100px;
+    width: 100px;
+    padding: 20px 0px;
+    border-radius: 50px;
+
+   
+}
+.banner-container{
+    height: 100vh;
+    background-image: url('Logo-6.png');
+    background-color: rgb(143, 47, 55);
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.banner-info{
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    left: 100px;
+
+}
+.hello{
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: rgb(146, 155, 18);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.common{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: greenyellow;
+
+}
+
+ 
+.left-div{
+    display: flex;
+    justify-content: space-between;
+
+  
+  
+  
+
+}
+.aside{
+ margin: 10px;
+
+
+}
+.about{
+    margin: 10px;
+
+
+   
+   }
+   .samsung{
+    background-color: red;
+    margin: 10px;
+    padding: 20px;
+    display: none;
+
+   
+   }
+   .computer{
+    display: none;
+    width: 50%;
+    
+  
+   }
+   .aside:hover .samsung{
+   display: block;
+   }
+   .about:hover .computer{
+    display: block;
+    }
+    .common{
+        margin-bottom: 50px;
+    }
+    .common{
+        box-sizing: border-box;
+    
+    }
+    #com1{
+        background-color: white;
+        padding: 10px;
+    }
+    #com2{
+        background-color: tomato;
+        padding: 10px;
+    }
+    #com1:hover{
+        color: tomato;
+        font-size: 1.2rem;
+    }
+    #com2:hover{
+        color: gry;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .good ,.right{
+        list-style: none;
+        font-size: 3rem;
+        color: rgb(90, 24, 24);
+        font-weight: bolder;
+        font-style: italic;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+      
+    
+    }
+  
